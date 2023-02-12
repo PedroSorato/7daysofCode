@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --cinza-principal: #667085;
+    --preto-fraco: #101828;
+    --vinho: #8E2424;
+    --cinza-claro: #98A2B3;
+    --branco: #FFFFFF;
+}   
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu__cabecalho li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.links__menu {
+    color: var(--cinza-principal);
+}
+
+.menu__cabecalho a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500px;
+}
+
+.links__isolados {
+    margin-left: 490px;
+}
+
+.botao__cadastro {
+    background-color: var(--vinho);
+    padding: 10px 18px;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color: var(--branco);
+}
+
+.botao__cadastro a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.texto__apresentacao {
+    text-align: center;
+    margin: 120px;
+}
+
+.container__nos {
+    color: var(--vinho);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 40px;
+}
+
+.container__diferenciais {
+    color: var(--preto-fraco);
+    font-weight: 600;
+    font-size: 48px;
+    margin: 40px;
+}
+
+.container__explicativo {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px;
+}
+
+.textos__lista {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-right: 95px;
+}
+
+.container__demonstrativo {
+    text-align: left;
+}
+
+.container__numerativo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+    text-align: center;
+}
+
+.container__explicativo__numeral {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-fraco);
+    padding: 10px;
+    text-align: center;
+}
+
+.container__texto__explicativo {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+    margin-left: 90px;
+}
+
+.container__vagas {
+    text-align: center;
+    padding: 125px;
+    width: 100%;
+}
+
+.botao__vagas {
+    color: var(--vinho);
+    font-weight: 500;
+    font-size: 14px;
+    background: rgba(142, 36, 36, 0.05);
+    width: 125px;
+    height: 28px;
+    border-radius: 16px;
+    padding: 4px 12px;
+    margin: auto;
+}
+
+.container__talentos {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--preto-fraco);
+}
+
+.container__equipe__remota {
+    font-weight: 400px;
+    font-size: 20px;
+    color: var(--cinza-principal);
+}
+
+.imagem__reuniao {
+    width: 100%;
+    height: 100%;
+    left: 112px;
+    top: 298px;
+}
+
+.container__talentos {
+    padding: 1em;
+}
+
+.vagas__disponiveis li {
+    text-align: left;
+}
+
+
+.titulo__funcao {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--preto-fraco);
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 768px;
+    height: 136px;   
+    margin: auto;
+    padding: 60px 0;
+}
+
+.lista__vagas {
+    padding: 24px 24px 28px;
+    gap: 24px;  
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 768px;
+    height: 136px; 
+    margin: auto;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.titulo__vaga {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-fraco);
+    padding-left: 1em;
+}
+
+.descri__vaga {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    color: var(--cinza-principal);
+    padding: 3em 1em;
+    justify-content: spa;
+}
+
+.descri__vaga li {
+    padding-top: 1em;
+}   
